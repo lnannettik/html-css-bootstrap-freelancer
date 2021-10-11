@@ -76,8 +76,9 @@
 }
 
 .st_sec_c {
-    height: 100px;
+    /* height: 100px; */
     background: #bb3e03;
+
 }
 
 .st_sec_d {
@@ -107,6 +108,9 @@
 .titolo_e_stellina {
     width: 270px;
 }
+
+
+
 
 .card {
     background: #e9d8a6;
