@@ -78,7 +78,27 @@
 
 /* SEZIONE B */
 
-.contenitore_prova {
+.sec_b .titolo_e_stellina i {
+    color: black;
+}
+
+.container .row img {
+    width: 100%;
+}
+
+/* .sec_b .container .row {
+    min-width: 575px;
+}
+ */
+.mgb-20 {
+    margin-bottom: 20px;
+} 
+
+.pd-40 {
+    padding: 40px;
+}
+
+/* .contenitore_prova {
     width: 100%;
     padding: 20px;
 }
@@ -86,10 +106,68 @@
 .contenitore_prova img {
     width: 100%;
     border-radius: 10px;
-}
+} */
 
 
 /* SEZIONE C */
+
+.section_c {
+    background: #1abc9c;
+}
+
+.section_c .sec_c button {
+    background-color: #1abc9c;
+    border-color: white;
+    color: white;
+    margin: 20px 0;
+}
+
+.testo {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* SEZIONE D */
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="text"],
+.registration-form textarea {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="text"],
+.registration-form textarea:focus {
+    border-color: rgb(168, 103, 103);
+    box-shadow: none;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="text"],
+.registration-form textarea {
+    height: 60px;
+    padding: 0;
+}
+
+.registration-form textarea {
+    height: 200px;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
 
 
 .st_sec_c {
