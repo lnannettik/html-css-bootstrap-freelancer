@@ -78,6 +78,16 @@
 
 /* SEZIONE B */
 
+.contenitore_prova {
+    width: 100%;
+    padding: 20px;
+}
+
+.contenitore_prova img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 /* SEZIONE C */
 
