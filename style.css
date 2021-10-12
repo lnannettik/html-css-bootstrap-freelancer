@@ -9,9 +9,17 @@
 
 /* HEADER */
 
-.st_header {
-    height: 100px;
-    background: #005f73;
+.main-header .site-navbar {
+    background-color: #2c3e50;
+}
+.main-header .site-brand {
+    font-size: 1.5rem;
+}
+.main-header .site-navbar a.color-link{
+    color: white;
+}
+.main-header .site-navbar a.color-link:hover{
+    color: #1abc9c;
 }
 
 
@@ -19,9 +27,10 @@
 
 .sec_a {
     /* height: 100px; */
-    background: #9b2226;
+    background: #1abc9c;
     flex-direction: column;
     padding: 20px;
+    color: white;
 }
 
     .sec_a img {
@@ -34,12 +43,25 @@
     }
 
     .stella {
+        align-items: center;
         justify-content: center;
         display: flex;
     }
 
-    .stella hr{
+    .stella i {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 5px;
+    }
+
+    .titolo_e_stellina .stella hr{
         width: 80px;
+        opacity: unset;
+        height: 3px;
+        border-radius: 50px;
+
     }
 
     .titolo_e_stellina h3 {
@@ -51,34 +73,18 @@
         flex-direction: column;
         margin: 0 auto;
     }
+   
 
 
 /* SEZIONE B */
 
-.round {
-    margin: 20px auto;
-    width: 50px;
-    height: 50px;
-    background: beige;
-    border-radius: 50%;
-}
 
-.card {
-    justify-content: center;
-    margin: 20px;
-}
+/* SEZIONE C */
 
-
-
-.st_sec_b {
-    height: 100px;
-    background: #ae2012;
-}
 
 .st_sec_c {
     /* height: 100px; */
     background: #bb3e03;
-
 }
 
 .st_sec_d {
@@ -100,19 +106,5 @@
     display: flex;
 }
 
-.menu {
-    height: 30px;
-    width: 50px;
-}
 
-.titolo_e_stellina {
-    width: 270px;
-}
-
-
-
-
-.card {
-    background: #e9d8a6;
-    height: 200px;
-}
+                                  
